@@ -58,4 +58,11 @@ describe( "Park", function(){
     assert.strictEqual(dinoCount, 16)
   });
 
+  it("should show how many babies after three years starting with two dinosaurs because I'm not one million percent confident that I have this equation right but if this one works I'm submitting this homework and feeling happy with myself", function(){
+    testPark.enclosure.push(tRex);
+    testPark.enclosure.push(stegasaurus);
+    var dinoCount = testPark.numberOfDinosInParkPerYear(3);
+    assert.strictEqual(dinoCount, 64)
+  });
+
 });
