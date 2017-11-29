@@ -37,17 +37,7 @@ Park.prototype = {
       return (dinosaurBabiesPerYearCount+startingDinoNumber)**yearsPassed;
     }
   }
-    //   var dinosaurBabiesPerYearCount = 0;
-    //   var startingDinoNumber = this.enclosure.length;
-    //
-    // for (var i = 0; i < yearsPassed; i++) {
-    //   for (var dinosaur of this.enclosure) {
-    //     dinosaurBabiesPerYearCount += dinosaur.babiesPerYear
-    //   }
-    //   }
-    //   var dinoCount = startingDinoNumber + dinosaurBabiesPerYearCount;
-    //   return dinoCount**yearsPassed;
-    // }
-  }
 
-  module.exports = Park;
+}
+
+module.exports = Park;
